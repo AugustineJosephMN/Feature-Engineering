@@ -67,3 +67,27 @@ Probability of Not Survived---1-pr(Survived).
 pr(Survived)/pr(Not Survived).
 Dictonary to map cabin with probability.
 replace with the categorical feature.
+### Transformation of Features
+#### Why Transformation of Features Are Required?
+Linear Regression---Gradient Descent ----Global Minima
+Algorithms like KNN,K Means,Hierarichal Clustering--- Eucledian Distance
+Every Point has some vectors and Directiom
+Deep Learning Techniques(Standardization, Scaling) 1.ANN--->GLobal Minima, Gradient 2.CNN 3.RNN
+0-255 pixels
+### Types Of Transformation
+##### Normalization And Standardization
+##### Scaling to Minimum And Maximum values
+##### Scaling To Median And Quantiles
+##### Guassian Transformation Logarithmic Transformation,Reciprocal Trnasformation,Square Root Transformation,Exponential Trnasformation,Box Cox Transformation
+### Standardization
+Bring all the variables or features to a similar scale. standarisation means centering the variable at zero. z=(x-x_mean)/std
+### Min Max Scaling (### CNN)---Deep Learning Techniques
+Min Max Scaling scales the values between 0 to 1. X_scaled = (X - X.min / (X.max - X.min).
+### Robust Scaler
+It is used to scale the feature to median and quantiles Scaling using median and quantiles consists of substracting the median to all the observations, and then dividing by the interquantile difference. The interquantile difference is the difference between the 75th and 25th quantile:
+#### IQR = 75th quantile - 25th quantile
+#### X_scaled = (X - X.median) / IQR
+### BoxCOx Transformation
+The Box-Cox transformation is defined as:
+T(Y)=(Y exp(λ)−1)/λ
+where Y is the response variable and λ is the transformation parameter. λ varies from -5 to 5. In the transformation, all values of λ are considered and the optimal value for a given variable is selected.
