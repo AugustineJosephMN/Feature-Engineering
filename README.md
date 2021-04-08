@@ -62,8 +62,8 @@ Ordering the labels according to the target
 Replace the labels by the joint probability of being 1 or 0
 #### Mean Encoding
 #### Probability Ratio Encoding
-Probability of Survived based on Cabin--- Categorical Feature
-Probability of Not Survived---1-pr(Survived)
-pr(Survived)/pr(Not Survived)
-Dictonary to map cabin with probability
-replace with the categorical feature
+Probability of Survived based on Cabin--- Categorical Feature.
+Probability of Not Survived---1-pr(Survived).
+pr(Survived)/pr(Not Survived).
+Dictonary to map cabin with probability.
+replace with the categorical feature.
